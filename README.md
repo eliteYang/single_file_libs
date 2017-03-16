@@ -56,6 +56,7 @@ as C/C++, as this is not an obstacle to most users.)
     - [data structures](#data-structures)
     - [string processing](#strings)
     - [scripting](#scripting)
+    - [hashing](#hashing)
   - mathematics
     - [vector math](#vectors)
     - [geometry math](#geometry-math)
@@ -104,7 +105,7 @@ as C/C++, as this is not an obstacle to most users.)
 |  [flags](https://github.com/sailormoon/flags)                         | **public domain**    | C++ |**1**| command-line argument parsing
 |  [optionparser](http://optionparser.sourceforge.net/)                 | MIT                  | C++ |**1**| command-line argument parsing
 |  _[cmdline](https://github.com/tanakh/cmdline)_                         | BSD                  | C++ |**1**| command-line argument parsing
-|  _[linkom](https://github.com/hernandp/linkom)_                         | ???                  |C/C++|**1**| command-line argument parsing w/ DOS-style options
+|  _[linkom](https://github.com/hernandp/linkom)_                         | MIT                  |C/C++|**1**| command-line argument parsing w/ DOS-style options
 
 # audio
 | library                                                               | license              | API |files| description
@@ -210,14 +211,20 @@ as C/C++, as this is not an obstacle to most users.)
 |  [yocto_symrigid.h](https://github.com/xelatihy/yocto-gl)             | MIT                  |C/C++|**1**| rigid body simulator (sequential impulse/PGS) with support for concave objects
 |  [mikktspace](https://developer.blender.org/diffusion/B/browse/master/intern/mikktspace)                             | zlib                 |C/C++|  2  | compute tangent space for normal mapping
 |  [debug-draw](https://github.com/glampert/debug-draw)                 | **public domain**    | C++ |**1**| API-agnostic immediate-mode debug rendering
-|**[lightmapper](https://github.com/ands/lightmapper#lightmapper)**     | **public domain**    |C/C++|**1**| use your OpenGL renderer to offline bake lightmaps
 |  _[Swarmz](https://github.com/Cultrarius/Swarmz)_                       | **public domain**    | C++ |**1**| swarming/flocking algorithm_
+|**[lightmapper](https://github.com/ands/lightmapper#lightmapper)**     | **public domain**    |C/C++|**1**| use your OpenGL renderer to offline bake lightmaps
+|_**_[seamoptimizer](https://github.com/ands/seamoptimizer)**_              | **public domain**    |C/C++|**1**| modify lightmap data to hide seams
 
 #hardware
 | library                                                               | license              | API |files| description
 | --------------------------------------------------------------------- |:--------------------:|:---:|:---:| -----------
 |**[EasyTab](https://github.com/ApoorvaJ/EasyTab)**                     | **public domain**    |C/C++|**1**| multi-platform tablet input
 |  [libue](https://github.com/houqp/libue)                              | MIT                  |C/C++|  1  | Helper library for Linux device hot-plug event
+
+#hashing
+| library                                                               | license              | API |files| description
+| --------------------------------------------------------------------- |:--------------------:|:---:|:---:| -----------
+|  _[xxHash](https://github.com/Cyan4973/xxHash)_                         | BSD                  |C/C++|  2  | fast hash function
 
 #images
 | library                                                               | license              | API |files| description
@@ -246,6 +253,7 @@ as C/C++, as this is not an obstacle to most users.)
 |  [prns.h](http://marc-b-reynolds.github.io/shf/2016/04/19/prns.html)  | **public domain**    |C/C++|**1**| seekable pseudo-random number sequences
 |  [amoeba](https://github.com/starwing/amoeba)                         | MIT                  |C/C++|**1**| constraint solver (Cassowary) w/Lua binding
 |  [simrank.hpp](https://github.com/roukaour/simrank)                   | MIT                  | C++ |  2  | SimRank graph similarity algorithm
+|_**[rnd.h](https://github.com/mattiasgustavsson/libs)**_                 | **public domain**    |C/C++|**1**| pseudo-random number generation
 
 #multithreading
 | library                                                               | license              | API |files| description
